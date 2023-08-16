@@ -95,10 +95,11 @@ code{
     margin-bottom: 10px; 
   }
 
-  .answer p {
+  .answer p, h3 {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight:700;
-    color: #6A2673;;
-   
+ }
+ .answer h3 {
+  color: #6A2673;
  }
