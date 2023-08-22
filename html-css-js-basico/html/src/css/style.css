@@ -9,9 +9,9 @@
 
 
 :root {
-    --cor-1:#0D0D0D;
-    --cor-2:#292927;
-    --cor-3:#f00000;
+    --cor-1:#202020;
+    --cor-2:#4d4d4b;
+    --cor-3:#CE6A27;
     --cor-4:#030200;
     --cor-5:#1B208C;
     --cor-6:#ECDBC1;
@@ -48,11 +48,20 @@ code{
     
     border-radius: 5px;
     font-size: 14px;
+    font-weight: 700;
     padding: 1.3px;
     box-sizing: border-box;
-    background-color: var(--cor-2);
     color: var(--cor-3);
     font-family: 'Courier New', monospace;
+    background-color: var(--cor-1);
+}
+.code{
+  background-color: var(--cor-1);
+  color: var(--white);
+  width: 60%;
+  padding: 20px;
+  margin: 0 auto;
+  
 }
 
 .container{
@@ -109,10 +118,6 @@ p {
     font-weight:700;
     text-align: center;
     
- }
-
- code {
-  font-weight: 700;
  }
  .exemplos {
   text-indent: 20px;
