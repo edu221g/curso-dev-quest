@@ -68,6 +68,9 @@ code{
 h2 {
   font-size: 1.1em;
 }
+p {
+  margin: 25px 0;
+}
 .alternating-list {
     list-style: none;
     padding: 0;

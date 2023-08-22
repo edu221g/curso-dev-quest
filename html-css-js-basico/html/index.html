@@ -86,16 +86,17 @@
                     <h3>Títulos</h3>
                     <p>Os títulos em HTML são usados para definir os cabeçalhos da página. Há seis níveis de títulos,
                         onde <code>&lt;h1&gt;</code> é o maior e <code>&lt;h6&gt; </code>é o menor. A sintaxe é
-                        <code>&lt;h1Texto do Título h1&gt;</code>.</p>
+                        <code>&lt;h1Texto do Título h1&gt;</code>.
+                    </p>
                     <h3>Exemplo:</h3>
                     <ul>
-                        
-                                <code>
+
+                        <code>
                                     <li>&lt;h1&gt; Título de Nível &lt;/h1&gt;</li>
                                     <li>&lt;h2&gt;Título de Nível 2 &lt;/h2&gt;</li>
                                     <li>&lt;h3&gt;Título de Nível 3 &lt;/h3&gt;</li>
                                 </code>
-                            
+
                     </ul>
                     <h3>Parágrafos</h3>
                     <p>Os parágrafos em HTML são usados para definir blocos de texto. Eles são criados usando a tag
@@ -106,35 +107,70 @@
 
                 <li class="faq-item">Exemplos de formatações de texto em HTML</li>
                 <div class="answer">
-                   <ul>
+                    <ul>
+                        <li>
+                            Negrito: a tag <code>&lt;b&gt;</code>é usada para definir texto em negrito. O texto entre as
+                            tags<code>&lt;b&gt;</code> e <code>&lt;/b&gt;</code> será exibido em negrito.
+                        </li>
+                        <p class="exemplos">Exemplo: <code><b>Texto em negrito</b></code></p>
+
+
+                        <li>
+                            Itálico: a tag <code>&lt;i&gt;</code> é usada para definir texto em itálico. O texto entre
+                            as tags <code>&lt;i&gt;</code> e <code>&lt;/i&gt;</code> será exibido em itálico.
+                        </li>
+                        <p class="exemplos">Exemplo: <code><i>Texto em itálico</i></code></p>
+
+
+                        <li>
+                            Sublinhado: a tag <code>&lt;u&gt;</code> é usada para definir texto sublinhado. O texto
+                            entre as tags <code>&lt;u&gt;</code> e <code>&lt;/u&gt;</code> será exibido sublinhado.
+                        </li>
+                        <p class="exemplos">Exemplo: <code><u>Texto sublinhado</u></code></p>
+
+
+                        <li>Tachado: a tag <code>&lt;s&gt;</code> é usada para definir texto tachado. O texto entre as
+                            tags <code>&lt;s&gt;</code> e <code>&lt;/u&gt;</code> será exibido com uma linha no meio.
+                        </li>
+                    </ul>
+                    <p class="exemplos">Exemplo: <code><s>Texto tachado</s></code></p>
+
                     <li>
-                        Negrito: a tag <code>&lt;b&gt;</code>é usada para definir texto em negrito. O texto entre as tags<code>&lt;b&gt;</code> e <code>&lt;/b&gt;</code> será exibido em negrito.
+                        Citação: a tag <code>&lt;blockquote&gt;</code> é usada para definir uma citação. O texto entre
+                        as tags <code>&lt;blockquote&gt;</code> e <code>&lt;/blockquote&gt;</code> será exibido em um
+                        bloco de citação.
                     </li>
-                    <p class="exemplos">Exemplo: <code><b>Texto em negrito</b></code></p>
+                    <p class="exemplos">Exemplo:<code><blockquote>Texto da citação</blockquote></code></p>
+
+                    <h2>Embora essas tags ainda sejam suportadas em HTML, elas não são mais recomendadas para uso. Em
+                        vez disso, é recomendado o uso de tags semânticas como <code>&lt;strong&gt;</code>, que indica a
+                        importância do texto, em vez de especificar sua aparência. </h2>
 
 
-                    <li>
-                        Itálico: a tag <code>&lt;i&gt;</code> é usada para definir texto em itálico. O texto entre as tags <code>&lt;i&gt;</code> e <code>&lt;/i&gt;</code> será exibido em itálico.
-                    </li>
-                    <p class="exemplos">Exemplo: <code><i>Texto em itálico</i></code></p>
+                </div>
 
+                <!--FAQ-ITEM PERGUNTA 006-->
 
-                    <li>
-                        Sublinhado: a tag <code>&lt;u&gt;</code> é usada para definir texto sublinhado. O texto entre as tags <code>&lt;u&gt;</code> e <code>&lt;/u&gt;</code>  será exibido sublinhado.
-                    </li>
-                    <p class="exemplos">Exemplo: <code><u>Texto sublinhado</u></code></p>
+                <li class="faq-item">O que são comentários em HTML?</li>
+                <div class="answer">
+                    <p>
+                        Comentários em HTML são trechos de texto que são ignorados pelo navegador e não aparecem na
+                        página da web. Eles são usados para adicionar notas e informações para outros desenvolvedores
+                        que possam estar trabalhando no código. Os comentários começam
+                        com<code>&lt;!-- e terminam com --&gt;</code>.</p>
 
+                    <p>
+                        Exemplo:
 
-                    <li>Tachado: a tag <code>&lt;s&gt;</code> é usada para definir texto tachado. O texto entre as tags <code>&lt;s&gt;</code> e <code>&lt;/u&gt;</code> será exibido com uma linha no meio.</li>
-                   </ul>
-                   <p class="exemplos">Exemplo: <code><s>Texto tachado</s></code></p>
+                        
+                        <code>&lt;!-- este é um comentário em html --&gt;</code>
 
-                   <li>
-                    Citação: a tag <code>&lt;blockquote&gt;</code> é usada para definir uma citação. O texto entre as tags <code>&lt;blockquote&gt;</code> e <code>&lt;/blockquote&gt;</code>  será exibido em um bloco de citação.
-                   </li>
-                   <p class="exemplos">Exemplo:<code><blockquote>Texto da citação</blockquote></code></p>
-                       
-                   <h2>Embora essas tags ainda sejam suportadas em HTML, elas não são mais recomendadas para uso. Em vez disso, é recomendado o uso de tags semânticas como <code>&lt;strong&gt;</code>, que indica a importância do texto, em vez de especificar sua aparência. </h2>
+                        
+                        Os comentários são úteis para documentar o código e explicar a finalidade de determinadas seções
+                        de uma página da web. Eles também são usados para desativar temporariamente o código sem
+                        removê-lo completamente.
+                    </p>
+
 
 
                 </div>
