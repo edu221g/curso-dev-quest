@@ -65,6 +65,9 @@ code{
     box-shadow: 0.1px 0.2px 12px #fff;
    
 }
+h2 {
+  font-size: 1.1em;
+}
 .alternating-list {
     list-style: none;
     padding: 0;
@@ -92,17 +95,21 @@ code{
   }
   
   .answer li {
-    margin-bottom: 10px; 
+    margin: 25px 0; 
   }
 
-  .answer p, h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
+  .answer  h3 {
+    margin: 25px 0;
+    font-size: 1.5em;
     font-weight:700;
+    text-align: center;
+    color:var(--cor-5);
  }
- .answer h3 {
-  color:var(--cor-5);
- }
+
  code {
   font-weight: 700;
+ }
+ .exemplos {
+  text-indent: 20px;
+  font-size: 0.8em;
  }
