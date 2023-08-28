@@ -64,7 +64,7 @@ code{
   
 }
 .especial{
-  color: var(--cor-3);
+  font-weight: bold;
 }
 
 .container{

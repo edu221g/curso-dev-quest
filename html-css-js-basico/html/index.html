@@ -302,41 +302,124 @@
 
 
                 </div>
-                
+
                 <!--FAQ-ITEM PERGUNTA 009-->
 
                 <li class="faq-item">Links Internos.</li>
                 <div class="answer">
                     <p>
-                        Os links internos em HTML são aqueles que conectam diferentes seções ou partes de uma mesma página da web. Eles são usados para criar navegação dentro de uma página, permitindo que os usuários acessem facilmente diferentes seções de conteúdo. Os links internos são criados usando o mesmo elemento <code>&lt;a&gt;</code> (âncora) e o atributo href, mas o valor do atributo href faz referência a um identificador interno na própria página.
+                        Os links internos em HTML são aqueles que conectam diferentes seções ou partes de uma mesma
+                        página da web. Eles são usados para criar navegação dentro de uma página, permitindo que os
+                        usuários acessem facilmente diferentes seções de conteúdo. Os links internos são criados usando
+                        o mesmo elemento <code>&lt;a&gt;</code> (âncora) e o atributo href, mas o valor do atributo href
+                        faz referência a um identificador interno na própria página.
                     </p>
                     <h3>
                         Aqui estão alguns exemplos práticos de uso de links internos em HTML:
                     </h3>
                     <ol>
                         <li>
-                            Links para seções da página: Suponha que você tenha uma página longa com várias seções e deseje criar um menu de navegação que permita aos usuários pular para uma seção específica da página. Você pode adicionar links internos para cada seção usando identificadores. Por exemplo:
-                            <code>&lt;a&gt; href="#secao1"> </code><span class="especial">Ir para Seção 1</span><code>&lt;/a&gt;</code> <br> <br>
-                                ...
-                                <code>&lt;h2&gt;</code> <span class="especial">id="secao1"</span><span class="especial">Seção 1</span><code>&lt;/h2&gt;</code> <br> <br>
-                                <code>&lt;p&gt;</code><span class="especial">Conteúdo da seção 1</span><code>&lt;/p&gt;</code>
-                                
-                                Neste exemplo, ao clicar no link "Ir para Seção 1", o usuário será levado diretamente à seção identificada por <code>id="secao1".</code>
+                            Links para seções da página: Suponha que você tenha uma página longa com várias seções e
+                            deseje criar um menu de navegação que permita aos usuários pular para uma seção específica
+                            da página. Você pode adicionar links internos para cada seção usando identificadores. Por
+                            exemplo:
+                            <code>&lt;a&gt; href="#secao1"> </code><span class="especial">Ir para Seção
+                                1</span><code>&lt;/a&gt;</code> <br> <br>
+                            ...
+                            <code>&lt;h2&gt;</code> <span class="especial">id="secao1"</span><span
+                                class="especial">Seção 1</span><code>&lt;/h2&gt;</code> <br> <br>
+                            <code>&lt;p&gt;</code><span class="especial">Conteúdo da seção
+                                1</span><code>&lt;/p&gt;</code>
+
+                            Neste exemplo, ao clicar no link "Ir para Seção 1", o usuário será levado diretamente à
+                            seção identificada por <code>id="secao1".</code>
                         </li>
 
                         <li>
-                            Voltar ao topo: Às vezes, é útil ter um link "Voltar ao topo" que permite aos usuários retornarem rapidamente ao início da página. Isso pode ser feito adicionando um link interno com o valor href="#topo" no final da página e um identificador no elemento que representa o topo da página. Por exemplo:
-                            <code>
-                                ...
-                                &lt;a&gt; href="#topo">Voltar ao topo&lt;/a&gt;
-                                ...
-                                &lt;h1&gt; id="topo">Título da página&lt;/h1&gt;
-                            </code>
-                        </li>
-                        <li></li>
-                        <li></li>
-                    </ol>
+                            Voltar ao topo: Às vezes, é útil ter um link "Voltar ao topo" que permite aos usuários
+                            retornarem rapidamente ao início da página. Isso pode ser feito adicionando um link interno
+                            com o valor href="#topo" no final da página e um identificador no elemento que representa o
+                            topo da página. Por exemplo:
 
+
+                            <code>&lt;a&gt;</code> <span class="especial">href="#topo">Voltar ao
+                                topo</span><code>&lt;/a&gt;</code>
+
+                            <code>&lt;h1&gt;</code> <span class="especial">id="topo">Título da
+                                página</span><code>&lt;/h1&gt;</code>
+
+                        </li>
+                        <li>
+                            Links para tabelas de conteúdo: Em páginas com muito conteúdo, é comum incluir uma tabela de
+                            conteúdo no início da página para fornecer uma visão geral dos tópicos abordados. Cada
+                            entrada da tabela de conteúdo pode ser um link interno para a seção correspondente na
+                            página. Por exemplo:
+
+                            <ul>
+                                <code>
+                                    &lt;ul&gt;
+                                </code>
+                                <code>
+                                        <li>
+                                            &lt;li&gt;&lt;a&gt; <span class="especial">href="#introducao"></span>
+                                         </code><span
+                                    class="especial">Introdução</span><code>&lt;/a&gt;&lt;/li&gt;</code>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;li&gt;&lt;a&gt; <span class="especial">href="#recursos"></span>
+                                        </code><span class="especial">Recursos</span><code>&lt;/a&gt;&lt;/li&gt;</code>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;li&gt;&lt;a&gt; <span class="especial">href="#conclusao"></span>
+                                        </code><span
+                                class="especial">Conclusão</span><code>&lt;/a&gt;&lt;/li&gt;</code>
+                        </li>
+
+                        <code>&lt;/ul&gt;</code> <br> <br>
+
+                        <li>
+                            <code>
+                                            &lt;h2&gt; <span class="especial">id="introducao"></span>
+                                        </code><span class="especial">Introdução</span><code>&lt;/h2&gt;</code>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;p&gt;
+                                        </code><span class="especial">Conteúdo da
+                                introdução</span><code>&lt;/p&gt;</code>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;h2&gt; <span class="especial">id="recursos"></span>
+                                        </code><span class="especial">Recursos<code>&lt;/h2&gt;</code></span>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;p&gt;
+                                        </code><span class="especial">Conteúdo dos
+                                recursos</span><code>&lt;/p&gt;</code>
+                        </li>
+
+
+                        <li>
+                            <code>
+                                            &lt;h2&gt; <span class="especial">id="conclusao"></span>
+                                        </code><span class="especial">Conclusão</span><code>&lt;/h2&gt;</code>
+                        </li>
+
+                        <li>
+                            <code>
+                                            &lt;p&gt;
+                                        </code><span class="especial">Conteúdo da
+                                conclusão</span><code>&lt;/p&gt;</code>
+                        </li>
 
                 </div>
             </ul>
