@@ -63,6 +63,9 @@ code{
   margin: 0 auto;
   
 }
+.especial{
+  color: var(--cor-3);
+}
 
 .container{
     width: 85vw;
@@ -123,4 +126,5 @@ p {
   text-indent: 20px;
   font-size: 0.8em;
  }
+ 
  
